@@ -1,16 +1,13 @@
 import sys
 
 def counts(string):
-    u=[]
     d={}
     for c in string:
-        if c not in u:
-            u.append(c)
-    for c in u:
         d[c] = string.count(c)
-    print(d)
+    return(d)
 
+d={}
 if len(sys.argv) > 1:
-    counts(sys.argv[1])
-else:
-    print('{}')
+    for i in range(1, len(sys.argv)):
+        d.update(counts(sys.argv[i]))
+print(d)
