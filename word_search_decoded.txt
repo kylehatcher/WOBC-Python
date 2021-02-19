@@ -1,0 +1,30 @@
+f c f i x t r s e p n q i i
+p l l c o d i n g x e l n e
+t f n a n n b m p a l h t p
+q w v m s z w y y g g a e r
+q w v m s z w y y g g a e r
+i q r e z s h i t b r r r o
+n l l p o v i t h n m b p g
+y a o j w q l e o e v q r r
+b n o n h w e r n v n r e a
+a g p j p k k a t l i s t m
+t u p l e s o b o k i q e m
+l a u l w x p l l r p h d i
+y g q f d l h e d o c r y n
+d e i s t a t e m e n t a g
+l o c o n d i t i o n a l g
+
+
+python
+class
+list
+iterable
+tuple
+statement
+conditional
+while
+loop
+coding
+language
+programming
+interpreted
