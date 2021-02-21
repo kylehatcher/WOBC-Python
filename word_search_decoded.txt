@@ -1,30 +1,29 @@
-f c f i x t r s e p n q i i
-p l l c o d i n g x e l n e
-t f n a n n b m p a l h t p
-q w v m s z w y y g g a e r
-q w v m s z w y y g g a e r
-i q r e z s h i t b r r r o
-n l l p o v i t h n m b p g
-y a o j w q l e o e v q r r
-b n o n h w e r n v n r e a
-a g p j p k k a t l i s t m
-t u p l e s o b o k i q e m
-l a u l w x p l l r p h d i
-y g q f d l h e d o c r y n
-d e i s t a t e m e n t a g
-l o c o n d i t i o n a l g
+F C F I X T R S E P N Q I I
+P L L C O D I N G X E L N E
+T F N A N N B M P A L H T P
+Q W V M S Z W Y Y G G A E R
+I Q R E Z S H I T B R R R O
+N L L P O V I T H N M B P G
+Y A O J W Q L E O E V Q R R
+B N O N H W E R N V N R E A
+A G P J P K K A T L I S T M
+T U P L E S O B O K I Q E M
+L A U L W X P L L R P H D I
+Y G Q F D L H E D O C R Y N
+D E I S T A T E M E N T A G
+L O C O N D I T I O N A L G
 
 
-python
-class
-list
-iterable
-tuple
-statement
-conditional
-while
-loop
-coding
-language
-programming
-interpreted
+PYTHON
+CLASS
+LIST
+ITERABLE
+TUPLE
+STATEMENT
+CONDITIONAL
+WHILE
+LOOP
+CODING
+LANGUAGE
+PROGRAMMING
+INTERPRETED

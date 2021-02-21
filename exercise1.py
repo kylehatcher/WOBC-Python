@@ -35,10 +35,5 @@ def validate(args):
         exit()
 
 if __name__ == "__main__":
-    #Make sure there are enough arguments given to run
-    if len(sys.argv) > 2:
-        #Strip the script filename we don't need it
-        exercise1(sys.argv[1:])
-    else:
-        #Pass it on through and let the vaildater do it's job
-        validate(sys.argv)
+    #Strip the script filename we don't need it
+    exercise1(sys.argv[1:])
