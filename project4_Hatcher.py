@@ -259,6 +259,8 @@ for w in search_words.split('\n'):
                             break
                         #Look right/up   [-b,+b]
                         break
+                if found:
+                    break
         if found:
             print('{:<30s} found in row {:>2d} column {:>2d} going {}'.format(w, row, col, direction))
             break
