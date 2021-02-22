@@ -23,6 +23,12 @@ def get_special():
     return(string.punctuation[random])
 
 def password_generator(length=14):
+    try:
+        length = int(length)
+    except:
+        length=14
+    if length < 14:
+        length = 14
     password=''
     i=0
     last=0
@@ -51,16 +57,19 @@ def password_generator(length=14):
             password = password + str(get_special())
             i+=1
     #make sure password has at least one of each type
-    if 1 in types and 2 in types and 2 in types and 4 in types:
-        print(password)
+    if 1 in types and 2 in types and 3 in types and 4 in types:
+        return(password)
     else:
-        password_generator(length)
+        return(password_generator(length))
+
+def main(arg=14):
+    print(password_generator(arg))
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         try:
-            password_generator(int(sys.argv[1]))
+            main(int(sys.argv[1]))
         except:
             print("Script only accepts integers as argument or no argument")
     else:
-        password_generator()
+        main()

@@ -47,12 +47,14 @@ def check_consecutive(password):
                 consec=1
                 if char in string.ascii_uppercase:
                     last='upper'
-                if char in string.ascii_lowercase:
+                elif char in string.ascii_lowercase:
                     last='lower'
-                if char in string.digits:
+                elif char in string.digits:
                     last='num'
-                if char in string.punctuation:
+                elif char in string.punctuation:
                     last='spec'
+            if consec >= 4:
+                return(False)
         else:
             return(False)
     return(True)
@@ -71,18 +73,21 @@ def password_checker(arg):
         password = arg
 
     if not check_pw_length(password):
-        print(False)
+        return(False)
     elif not check_characters(password):
-        print(False)
+        return(False)
     elif not check_consecutive(password):
-        print(False)
+        return(False)
     elif not check_whitespace(password):
-        print(False)
+        return(False)
     else:
-        print(True)
+        return(True)
+
+def main(arg):
+    print(password_checker(arg))
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         exit("Please enter a single password")
     else:
-        password_checker(sys.argv[1])
+        main(sys.argv[1])
